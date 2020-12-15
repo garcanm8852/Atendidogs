@@ -83,6 +83,12 @@
 
         /* Override */
 
+        a.final-button.sep-t-50:hover {
+            color: white;
+            background-color: #4684C2;
+            transition: all 1s;
+        }
+
         a.dropdown-item.active {
             background-color: #59a7f5!important;
         }
