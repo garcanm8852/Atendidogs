@@ -9,6 +9,14 @@
         .iva {
             font-size: 10px;
         }
+
+        .carrito{
+            position: fixed;
+            bottom: 85.7%;
+            left: 80%;
+            width: 20%;
+            z-index: 1;
+        }
         
         .black {
             color: black!important;
@@ -545,9 +553,15 @@
         .p-t-75 {
             padding-top: 75px;
         }
+        .p-t-25 {
+            padding-top: 25px;
+        }
         
         .p-10 {
             padding: 10px;
+        }
+        .p-25 {
+            padding: 25px;
         }
         
         .p-b-25 {
