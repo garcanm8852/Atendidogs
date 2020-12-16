@@ -11,6 +11,10 @@
         .iva {
             font-size: 10px;
         }
+        .italic{
+            font-style: italic;
+            
+        }
 
         .carrito {
             position: fixed;
@@ -79,7 +83,7 @@
             font-weight: 400;
         }
 
-        /* Clases de Bootstrap */
+        /* Clases de Bootstrap  */
 
         /* Override */
         li.nav-item.dropdown.active a.dropdown-toggle{
