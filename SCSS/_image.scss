@@ -1,101 +1,93 @@
-        /* Clases de imagenes */
+/* Clases de imagenes */
 
-        div#idEstrellas img {
-            width: 18px;
-            height: 18px;
-        }
+div#idEstrellas img {
+    width: 18px;
+    height: 18px;
+}
 
-        .img-100 {
-            width: 100%;
-        }
+.img-100 {
+    width: 100%;
+}
 
-        .img-75 {
-            width: 75%;
-        }
+.img-75 {
+    width: 75%;
+}
 
-        .img-50 {
-            width: 50%;
-        }
+.img-50 {
+    width: 50%;
+}
 
-        .img-25 {
-            width: 25%;
-        }
+.img-25 {
+    width: 25%;
+}
 
-        .img-country {
-            width: 40px;
-            height: 40px;
-        }
+.img-country {
+    width: 40px;
+    height: 40px;
+}
 
-        .img-center {
-            margin-left: auto;
-            margin-right: auto;
-        }
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cesta-vacia-img {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("../img/dog1.jpg") no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-        .block {
-            display: block;
-        }
+.seccion1-1-img {
+    background-image: url("../IMG/Equipo.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+}
 
-        .r-200 {
-            border-radius: 200px;
-        }
+.w-sombra {
+    background-color: rgba(255, 255, 255, 0.3);
+}
 
-        .r-10 {
-            border-radius: 10px;
-        }
+.error404 {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+        url("../img/error-404.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
 
-        .r-5 {
-            border-radius: 5px;
-        }
+.seccion1-2-img {
+    background-image: url("../IMG/Servicios.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+}
 
-        .cesta-vacia-img {
-            background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/dog1.jpg") no-repeat center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
+.seccion1-3-img {
+    background-image: url("../IMG/instalaciones.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+}
 
-        .seccion1-1-img {
-            background-image: url("../IMG/Equipo.jpeg");
-            background-size: cover;
-            background-position: center;
-            border-radius: 200px;
-        }
+.banner-1-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../IMG/dog-banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-        .w-sombra {
-            background-color: rgba(255, 255, 255, 0.3);
-        }
+.banner-final-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../IMG/banner-final.png");
+    background-size: cover;
+    background-position: center;
+}
 
-        .error404 {
-            background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../img/error-404.jpg") no-repeat center;
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-        }
-
-        .seccion1-2-img {
-            background-image: url("../IMG/Servicios.jpg");
-            background-size: cover;
-            background-position: center;
-            border-radius: 200px;
-        }
-
-        .seccion1-3-img {
-            background-image: url("../IMG/instalaciones.jpg");
-            background-size: cover;
-            background-position: center;
-            border-radius: 200px;
-        }
-
-        .banner-1-img {
-            background-color: rgba(0, 0, 0, .5);
-            background-image: url("../IMG/dog-banner.jpg");
-            background-size: cover;
-            background-position: center;
-        }
-
-        .banner-final-img {
-            background-color: rgba(0, 0, 0, .5);
-            background-image: url("../IMG/banner-final.png");
-            background-size: cover;
-            background-position: center;
-        }
+.final-banner {
+    vertical-align: middle;
+    padding: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+}

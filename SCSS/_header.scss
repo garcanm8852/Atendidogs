@@ -27,3 +27,24 @@ div.header div.progress-container .progress-bar {
     background: #59a7f5 !important;
     width: 0%;
 }
+
+a.nav-link {
+    font-weight: 400;
+}
+
+a.nav-link:hover {
+    color: #59a7f5 !important;
+    transition: all 0.5s;
+}
+
+.breadcrumb {
+    background-color: white !important;
+}
+
+.breadcrumb-item a {
+    color: #59a7f5 !important;
+}
+
+.breadcrumb-item.active {
+    color: #4684c2 !important;
+}

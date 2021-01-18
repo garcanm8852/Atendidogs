@@ -1,70 +1,70 @@
-        /* Diseño Responsive */
+/* Diseño Responsive */
 
-        @media only screen and (max-width:700px) {
-            div.block-responsive {
-                display: block;
-            }
-            div.hidden-responsive {
-                display: none;
-            }
-            .Valoracion {
-                font-size: 14px;
-                text-align: center;
-            }
-            ul#myTab {
-                font-size: 10px;
-            }
-            .breadcrumb {
-                font-size: 10px!important;
-            }
-            .responsive-display-none {
-                display: none;
-            }
-            a.navbar-brand {
-                font-size: 15px;
-            }
-            a.dropdown-item {
-                text-align: right;
-            }
-            ul.nav.navbar-nav.flex-row.justify-content-between.ml-auto {
-                float: right;
-            }
-            .r-10 {
-                border-radius: 10px;
-                margin-top: 25px;
-            }
-            .img-country {
-                width: 14px;
-                height: 14px;
-            }
-            .seccion1-1-img {
-                margin-top: 25px;
-                height: 120px;
-            }
-            .seccion1-2-img {
-                margin-bottom: 25px;
-                height: 120px;
-            }
-            .seccion1-3-img {
-                margin-top: 25px;
-                height: 120px;
-            }
-            .sep-b-responsive-25 {
-                margin-bottom: 25px;
-            }
-            .sep-b-responsive-50 {
-                margin-bottom: 50px;
-            }
-            .sep-b-responsive-75 {
-                margin-bottom: 75px;
-            }
-            .img-ico-responsive {
-                width: 50%!important;
-            }
-            .img-ico-responsive-25 {
-                width: 50%!important;
-            }
-            .order {
-                order: -2;
-            }
-        }
+@media only screen and (max-width: 700px) {
+    div.block-responsive {
+        display: block;
+    }
+    div.hidden-responsive {
+        display: none;
+    }
+    .Valoracion {
+        font-size: 14px;
+        text-align: center;
+    }
+    ul#myTab {
+        font-size: 10px;
+    }
+    .breadcrumb {
+        font-size: 10px !important;
+    }
+    .responsive-display-none {
+        display: none;
+    }
+    a.navbar-brand {
+        font-size: 15px;
+    }
+    a.dropdown-item {
+        text-align: right;
+    }
+    ul.nav.navbar-nav.flex-row.justify-content-between.ml-auto {
+        float: right;
+    }
+    .r-10 {
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    .img-country {
+        width: 14px;
+        height: 14px;
+    }
+    .seccion1-1-img {
+        margin-top: 25px;
+        height: 120px;
+    }
+    .seccion1-2-img {
+        margin-bottom: 25px;
+        height: 120px;
+    }
+    .seccion1-3-img {
+        margin-top: 25px;
+        height: 120px;
+    }
+    .sep-b-responsive-25 {
+        margin-bottom: 25px;
+    }
+    .sep-b-responsive-50 {
+        margin-bottom: 50px;
+    }
+    .sep-b-responsive-75 {
+        margin-bottom: 75px;
+    }
+    .img-ico-responsive {
+        width: 50% !important;
+    }
+    .img-ico-responsive-25 {
+        width: 50% !important;
+    }
+    .order {
+        order: -2;
+    }
+}

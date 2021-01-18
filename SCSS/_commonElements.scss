@@ -1,0 +1,193 @@
+.inline {
+    display: inline;
+}
+
+.hidden {
+    display: hidden !important;
+}
+
+.r-200 {
+    border-radius: 200px;
+}
+
+.r-10 {
+    border-radius: 10px;
+}
+
+.r-5 {
+    border-radius: 5px;
+}
+
+.block {
+    display: block;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.p-t-75 {
+    padding-top: 75px;
+}
+
+.p-t-25 {
+    padding-top: 25px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-25 {
+    padding: 25px;
+}
+
+.p-b-25 {
+    padding-bottom: 25px;
+}
+
+td.p-b-25 > td {
+    padding-bottom: 25px;
+}
+/* Clases de separación personales */
+
+.sep-t-50 {
+    margin-top: 50px;
+}
+
+.sep-t-10 {
+    margin-top: 10px;
+}
+
+.sep-t-100 {
+    margin-top: 100px;
+}
+
+.sep-t-25 {
+    margin-top: 25px;
+}
+
+.sep-b-25 {
+    margin-bottom: 25px;
+}
+
+.sep-r-5 {
+    margin-right: 5px;
+}
+
+.sep-r-10 {
+    margin-right: 10px;
+}
+
+.sep-l-5 {
+    margin-left: 5px;
+}
+
+.sep-l-25 {
+    margin-left: 25px;
+}
+
+.producto-spacing-5 {
+    border-spacing: 5em;
+}
+
+/* Clases Varias */
+
+.redondeo {
+    border-radius: 500px;
+    height: 200px;
+}
+
+.button {
+    background-color: #59a7f5;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.final-button {
+    background-color: #59a7f5;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    transition: all 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v-align-center {
+    align-self: center;
+}
+
+.v-align-end {
+    align-self: end;
+}
+
+.radius {
+    border-radius: 100px;
+}
+
+input {
+    border: solid 1px #59a7f5 !important;
+}
+
+.border-t-b {
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+}
+
+.border-b {
+    border-bottom: solid 1px grey;
+}
+
+.button:hover {
+    background-color: #4684c2;
+    transition: all 0.5s;
+    color: white;
+}
+
+.carrito {
+    position: fixed;
+    bottom: 85.7%;
+    left: 80%;
+    width: 20%;
+    z-index: 1;
+}
+
+.bg-blue1 {
+    background-color: #59a7f5 !important;
+    color: white !important;
+}
