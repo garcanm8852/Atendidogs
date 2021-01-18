@@ -11,9 +11,9 @@
         .iva {
             font-size: 10px;
         }
-        .italic{
+
+        .italic {
             font-style: italic;
-            
         }
 
         .carrito {
@@ -86,12 +86,15 @@
         /* Clases de Bootstrap  */
 
         /* Override */
-        li.nav-item.dropdown.active a.dropdown-toggle{
+
+        li.nav-item.dropdown.active a.dropdown-toggle {
             color: #4684C2!important;
         }
+
         a.nav-link.active {
             color: #4684C2!important;
         }
+
         .dropdown-item.active, .dropdown-item:active {
             background-color: #59a7f5!important;
         }
