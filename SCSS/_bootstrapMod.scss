@@ -134,6 +134,10 @@ ul.nav.nav-tabs li.nav-item a.nav-link:hover {
     color: $blue1;
 }
 
+ul.nav.navbar-nav.flex-row.justify-content-between.ml-auto {
+    float: right;
+}
+
 // .input-group-text {
 //     background-color: #59a7f4!important;
 //     color: white!important;
