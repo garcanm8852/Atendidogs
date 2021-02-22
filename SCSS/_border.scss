@@ -1,0 +1,13 @@
+@for $i from 1 through 10 {
+    $value: $i*1;
+    .b-#{$value} {
+        border: black solid $value * 1px;
+    }
+}
+
+@for $i from 1 through 10 {
+    $value: $i*1;
+    .b-blue-#{$value} {
+        border: $blue1 solid $value * 1px;
+    }
+}

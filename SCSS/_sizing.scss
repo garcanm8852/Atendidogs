@@ -1,0 +1,20 @@
+@for $i from 1 through 20 {
+    $value: $i*5;
+    .w-#{$value} {
+        width: $value * 1%;
+    }
+}
+
+@for $i from 1 to 30 {
+    $value: $i*25;
+    .h-px-#{$value} {
+        height: $value * 1px;
+    }
+}
+
+@for $i from 1 to 10 {
+    $value: $i*1;
+    .h-em-#{$value} {
+        height: $value * 1em;
+    }
+}

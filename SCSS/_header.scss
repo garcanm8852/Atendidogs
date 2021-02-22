@@ -8,6 +8,7 @@
     background-color: #f1f1f1;
 }
 
+
 /* The progress container (grey background) */
 
 div.header .progress-container {
@@ -16,15 +17,16 @@ div.header .progress-container {
     background: #ccc;
 }
 
+
 /* The progress bar (scroll indicator) */
 
 .progress-bar {
-    background: #59a7f5 !important;
+    background: $blue1 !important;
 }
 
 div.header div.progress-container .progress-bar {
     height: 8px;
-    background: #59a7f5 !important;
+    background: $blue1 !important;
     width: 0%;
 }
 
@@ -33,7 +35,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: #59a7f5 !important;
+    color: $blue1 !important;
     transition: all 0.5s;
 }
 
@@ -42,9 +44,9 @@ a.nav-link:hover {
 }
 
 .breadcrumb-item a {
-    color: #59a7f5 !important;
+    color: $blue1 !important;
 }
 
 .breadcrumb-item.active {
-    color: #4684c2 !important;
+    color: $blue2 !important;
 }

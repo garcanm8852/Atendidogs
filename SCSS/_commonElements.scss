@@ -66,9 +66,11 @@
     padding-bottom: 25px;
 }
 
-td.p-b-25 > td {
+td.p-b-25>td {
     padding-bottom: 25px;
 }
+
+
 /* Clases de separación personales */
 
 .sep-t-50 {
@@ -111,6 +113,7 @@ td.p-b-25 > td {
     border-spacing: 5em;
 }
 
+
 /* Clases Varias */
 
 .redondeo {
@@ -119,7 +122,7 @@ td.p-b-25 > td {
 }
 
 .button {
-    background-color: #59a7f5;
+    background-color: $blue1;
     border-radius: 5px;
     width: 100%;
     display: block;
@@ -135,7 +138,7 @@ td.p-b-25 > td {
 }
 
 .final-button {
-    background-color: #59a7f5;
+    background-color: $blue1;
     border-radius: 5px;
     width: 50%;
     display: block;
@@ -161,20 +164,20 @@ td.p-b-25 > td {
 }
 
 input {
-    border: solid 1px #59a7f5 !important;
+    border: solid 1px $blue1 !important;
 }
 
 .border-t-b {
-    border-top: solid 1px grey;
-    border-bottom: solid 1px grey;
+    border-top: solid 1px $grey;
+    border-bottom: solid 1px $grey;
 }
 
 .border-b {
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px $grey;
 }
 
 .button:hover {
-    background-color: #4684c2;
+    background-color: $blue2;
     transition: all 0.5s;
     color: white;
 }
@@ -188,6 +191,6 @@ input {
 }
 
 .bg-blue1 {
-    background-color: #59a7f5 !important;
+    background-color: $blue1 !important;
     color: white !important;
 }
