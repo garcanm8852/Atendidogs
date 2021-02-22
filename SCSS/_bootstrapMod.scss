@@ -128,3 +128,14 @@ ul.nav.nav-tabs li.nav-item a.nav-link:hover {
     color: white !important;
     transition: all 0.5s;
 }
+
+.navbar-brand span {
+    font-weight: bold;
+    color: $blue1;
+}
+
+// .input-group-text {
+//     background-color: #59a7f4!important;
+//     color: white!important;
+//     border: 1px solid #59a7f4 !important;
+// }

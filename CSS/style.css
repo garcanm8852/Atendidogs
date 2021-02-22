@@ -630,6 +630,11 @@ ul.nav.nav-tabs li.nav-item a.nav-link:hover {
   transition: all 0.5s;
 }
 
+.navbar-brand span {
+  font-weight: bold;
+  color: #59a7f5;
+}
+
 /* Diseño Responsive */
 @media only screen and (max-width: 700px) {
   div.block-responsive {
@@ -1594,43 +1599,43 @@ ul.nav.nav-tabs li.nav-item a.nav-link:hover {
   font-size: 10em;
 }
 
-.b-1 {
+.b-black-1 {
   border: black solid 1px;
 }
 
-.b-2 {
+.b-black-2 {
   border: black solid 2px;
 }
 
-.b-3 {
+.b-black-3 {
   border: black solid 3px;
 }
 
-.b-4 {
+.b-black-4 {
   border: black solid 4px;
 }
 
-.b-5 {
+.b-black-5 {
   border: black solid 5px;
 }
 
-.b-6 {
+.b-black-6 {
   border: black solid 6px;
 }
 
-.b-7 {
+.b-black-7 {
   border: black solid 7px;
 }
 
-.b-8 {
+.b-black-8 {
   border: black solid 8px;
 }
 
-.b-9 {
+.b-black-9 {
   border: black solid 9px;
 }
 
-.b-10 {
+.b-black-10 {
   border: black solid 10px;
 }
 
