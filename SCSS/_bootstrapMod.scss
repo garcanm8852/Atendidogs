@@ -1,5 +1,6 @@
 /* Clases de Bootstrap  */
 
+
 /* Override */
 
 li.nav-item.dropdown.active a.dropdown-toggle {
@@ -46,14 +47,14 @@ a.dropdown-item.active {
 
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active,
-.show > .btn-outline-secondary.dropdown-toggle {
+.show>.btn-outline-secondary.dropdown-toggle {
     color: #59a7f5 !important;
     background-color: white !important;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active,
-.show > .btn-outline-secondary.dropdown-toggle:hover {
+.show>.btn-outline-secondary.dropdown-toggle:hover {
     color: white !important;
     background-color: #59a7f5 !important;
 }
@@ -72,6 +73,7 @@ select {
     border-color: #59a7f5 !important;
 }
 
+
 /* Paginación Activa*/
 
 .page-item.active .page-link {
@@ -81,6 +83,7 @@ select {
     border-color: #59a7f5 !important;
     transition: all 0.5s;
 }
+
 
 /* Paginación Hover */
 
@@ -92,16 +95,18 @@ select {
     transition: all 0.5s;
 }
 
+
 /* Paginación */
 
 .page-link {
     color: #59a7f5 !important;
 }
 
+
 /* Collapse Tabs */
 
 ul.nav.nav-tabs li.nav-item a.nav-link.active {
-    color: white;
+    color: white!important;
     background-color: #59a7f5;
     font-weight: bold;
     transition: all 1s;
